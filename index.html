@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USAJ - SMPN 1 Manonjaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f3f4f6;
+      }
+
+      .subject-card {
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+
+      .subject-card:active {
+        transform: scale(0.95);
+      }
+
+      .school-gradient {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      }
+    </style>
+  </head>
+  <body class="pb-12">
+    <!-- Header / Banner -->
+    <header class="school-gradient text-white pt-10 pb-16 px-6 rounded-b-[40px] shadow-lg text-center">
+      <div class="mb-4 inline-block p-3 bg-white/20 rounded-full backdrop-blur-md">
+        <!-- Icon Sekolah (Bisa diganti dengan tag <img> jika ada logo) -->
+        <i class="fas fa-school text-4xl"></i>
+      </div>
+      <h1 class="text-2xl font-bold tracking-tight">UJIAN SUMATIF AKHIR JENJANG</h1>
+      <p class="text-blue-100 mt-1 text-sm font-medium">SMP NEGERI 1 MANONJAYA</p>
+      <div class="mt-4 inline-flex items-center bg-white/10 px-4 py-1.5 rounded-full text-xs">
+        <span class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+        Tahun Ajaran 2025/2026
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-md mx-auto -mt-8 px-5">
+      <!-- Pesan Instruksi -->
+      <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 mb-6">
+        <h2 class="font-bold text-gray-800 text-sm mb-1 uppercase tracking-wider">Instruksi Ujian:</h2>
+        <ul class="text-gray-600 text-xs space-y-1 list-disc ml-4 leading-relaxed">
+          <li>Gunakan browser Google Chrome terbaru.</li>
+          <li>Pastikan sinyal internet stabil sebelum memulai.</li>
+          <li>Pilih mata pelajaran yang diujikan hari ini.</li>
+        </ul>
+      </div>
+
+      <!-- Grid Mata Pelajaran -->
+      <div class="grid grid-cols-1 gap-4">
+        <!-- 1. PAI -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-book-quran text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">PAI dan Budi Pekerti</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 2. PPKn -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-shield-halved text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">PPKn</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 3. Bahasa Indonesia -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-pen-nib text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">Bahasa Indonesia</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 4. IPA -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-flask text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">Ilmu Pengetahuan Alam (IPA)</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 5. Matematika -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-calculator text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">Matematika</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 6. Bahasa Inggris -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-language text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">Bahasa Inggris</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 7. IPS -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-earth-asia text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">Ilmu Pengetahuan Sosial (IPS)</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 8. TIK/Informatika -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-slate-100 text-slate-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-microchip text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">TIK/Informatika</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+
+        <!-- 9. Bahasa Sunda -->
+        <a href="URL_GOOGLE_FORM_DISINI" class="subject-card flex items-center bg-white p-4 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300">
+          <div class="w-12 h-12 bg-violet-100 text-violet-600 rounded-xl flex items-center justify-center mr-4">
+            <i class="fas fa-map text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-800 text-sm">Bahasa Sunda</h3>
+            <p class="text-gray-400 text-[10px] uppercase">Mulai Kerjakan &rarr;</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-10 text-center text-gray-400">
+        <p class="text-[10px] uppercase tracking-widest font-semibold">Panitia Ujian &copy; 2025</p>
+        <p class="text-[10px]">SMPN 1 Manonjaya</p>
+      </footer>
+    </main>
+
+    <script>
+      // Opsional: Tambahkan logika untuk mencatat waktu atau menyapa siswa
+      console.log("Portal Ujian SMPN 1 Manonjaya Siap!");
+    </script>
+  </body>
+</html>
